@@ -1,0 +1,11 @@
+{
+  "pcawg_full_workflow.pcawg_full.bam_tumor": "gs://broad-gsaksena-pcawg-test/hcc1143_train1_chr22.bam",
+  "pcawg_full_workflow.pcawg_full.bam_tumor_index": "gs://broad-gsaksena-pcawg-test/hcc1143_train1_chr22.bam.bai",
+  "pcawg_full_workflow.pcawg_full.bam_normal": "gs://broad-gsaksena-pcawg-test/hcc1143bl_train1_chr22.bam",
+  "pcawg_full_workflow.pcawg_full.bam_normal_index": "gs://broad-gsaksena-pcawg-test/hcc1143bl_train1_chr22.bam.bai",
+  "pcawg_full_workflow.pcawg_full.refdata1": "gs://firecloud-tcga-open-access/tutorial/reference/public_full10.tar.gz",
+  "pcawg_full_workflow.pcawg_full.output_disk_gb": "1000",
+  "pcawg_full_workflow.pcawg_full.ram_gb": "100",
+  "pcawg_full_workflow.pcawg_full.cpu_cores": "32"
+}
+
