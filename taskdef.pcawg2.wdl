@@ -493,7 +493,7 @@ for f1 in dirs:
 
         runtime {
 
-        docker : "docker.io/broadinstitute/pcawg_broad_wgs_variant_callers:latest"
+        docker : "docker.io/broadinstitute/pcawg_broad_wgs_variant_callers:mutect_2percent_floor"
         memory: "${ram_gb}GB"
         cpu: "${cpu_cores}"
         disks: "local-disk ${output_disk_gb} HDD"
